@@ -5,14 +5,14 @@ local Tab = Window:NewTab("Blox Fruits")
 local Section = Tab:NewSection("Auto Chest")
 
 
-Section:NewButton("ButtonText", "ButtonInfo", function()
+Section:NewButton("Auto Chest", "ButtonInfo", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Cesare0328/my-scripts/main/fxss%20bf.lua"))()
 end)
 local Section = Tab:NewSection("Auto Fram")
 
 
-Section:NewButton("ButtonText", "ButtonInfo", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Script"))()
+Section:NewButton("1XLIIHUB V3", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/armch063/BF-1XLIIHUB-V3/main/README.md', true))()
 end)
 
 local Tab = Window:NewTab("All Star Tower")
