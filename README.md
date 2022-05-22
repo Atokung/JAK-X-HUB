@@ -2,11 +2,18 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 local Window = Library.CreateLib("JAK X HUB", "DarkTheme")
 
 local Tab = Window:NewTab("Blox Fruits")
+local Section = Tab:NewSection("Auto Chest")
+
+
+Section:NewButton("ButtonText", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Cesare0328/my-scripts/main/fxss%20bf.lua"))()
+end)
 local Section = Tab:NewSection("Auto Fram")
-local Section = Tab:NewSection("Auto Black leg v2")
-local Section = Tab:NewSection("Auto Electro v2")
-local Section = Tab:NewSection("Auto Dragon Claw v2")
-local Section = Tab:NewSection("Auto Super human")
+
+
+Section:NewButton("ButtonText", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Script"))()
+end)
 
 local Tab = Window:NewTab("All Star Tower")
 local Section = Tab:NewSection("Kill Mob")
