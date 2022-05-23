@@ -24,6 +24,7 @@ local Section = Tab:NewSection("Pet Menu")
 Section:NewToggle("SAZA HUB", Click to open SAZA HUB", function(state)
 loadstring(game:HttpGet"https://www.scriptblox.com/raw/SAZA-HUB_496")()
 end)
+
 Section:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.F, function()
 	Library:ToggleUI()
 end)
