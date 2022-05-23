@@ -2,7 +2,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 local Window = Library.CreateLib("JAK X HUB", "DarkTheme")
 
 local Tab = Window:NewTab("Blox fruits")
-local Section = Tab:NewSection("Blox fruits Pc/Mobile")
+local Section = Tab:NewSection("Blox fruits Mobile/Pc")
 
 Section:NewToggle("Minkx HUB", "Click to open Minkx HUB", function(state)
 loadstring(game:HttpGet("loadstring(game:HttpGet('https://raw.githubusercontent.com/Beammodz/Minkx/main/Hub/Main/Lua/FreeScript/Mobile"))();
@@ -39,8 +39,7 @@ Section:NewToggle("Space HUB", "Click to open Spacr HUB", function(state)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/sadwawin/KINGLAGACY/main/README.md"))();
 end)
 
-local Section = Tab:NewSection("king Legacy Mobile")
-
+local Section = Tab:NewSection("king Legacy Pc")
 
 Section:NewToggle("Ripper HUB", "Click to open Ripper HUB", function(state)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/hajibeza/RIPPER-HUB/main/King%20Leagacy"))();
