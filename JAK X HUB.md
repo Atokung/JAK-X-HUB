@@ -42,6 +42,6 @@ end)
 local Section = Tab:NewSection("king Legacy Mobile")
 
 
-Section:NewToggle("Space HUB", "Click to open Spacr HUB", function(state)
+Section:NewToggle("Ripper HUB", "Click to open Ripper HUB", function(state)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/hajibeza/RIPPER-HUB/main/King%20Leagacy"))();
 end)
