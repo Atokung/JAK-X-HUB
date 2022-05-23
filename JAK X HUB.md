@@ -41,6 +41,7 @@ end)
 
 local Section = Tab:NewSection("king Legacy Pc")
 
+
 Section:NewToggle("Ripper HUB", "Click to open Ripper HUB", function(state)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/hajibeza/RIPPER-HUB/main/King%20Leagacy"))();
 end)
